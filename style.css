@@ -1,0 +1,240 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:whitesmoke !important;
+}
+/*navigatio*/
+.navigation{
+    background-color: lightgray;
+}
+.navigation a{
+    color:white;
+}
+
+/*main*/
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("img1.jpg");
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 30%;
+    background-attachment: fixed;
+    background-color: transparent;
+}
+.links i{
+    font-size: 50px;
+    padding:5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.main .content{
+    color: white;
+}
+.main a{
+    text-decoration: none;
+    color:black;
+}
+.main a:hover{
+    color: black ;
+}
+/*about*/
+.about{
+    color:black;
+}
+.about a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.about a:hover{
+    color:whitesmoke;
+}
+/*skills*/
+#skills{
+    margin-left:15%;
+    margin-right:15%;
+    color:black;
+}
+#skills img{
+    width:75px;
+}
+#skills strong{
+    color: black;
+}
+/*project*/
+#protfolio{
+    color:black;
+    margin-left:15%;
+    margin-right:15%;
+}
+#protfolio .thumbnail{
+    border: 3.5vh solid gainsboro;
+}
+#protfolio .card {
+    color:black;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px #888888;
+    font-size: 100%;
+}
+#protfolio a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.card-footer{
+    background-color: whitesmoke !important;
+    border-top: 0 !important;
+}
+/*experience*/
+#experience{
+    color:black;
+    margin-left:15%;
+    margin-right:15%;
+}
+#experience .d-flex{
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+}
+/*education*/
+#education{
+    color:black;
+    margin-left:15%;
+    margin-right:15%;
+}
+#education .card{
+    background-color:white;
+}
+#education .d-flex{
+    font-size: 20px;
+    color:black;
+}
+#education .d-flex img{
+    width: 60px;
+}
+#education .card:hover{
+    background-color:gainsboro;
+    box-shadow: 5px 5px 5px #888888;
+}
+#education .card:hover p{
+    color:black;
+}
+/*servises*/
+#services{
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("img1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: transparent;
+}
+.services-div{
+    margin-left:15%;
+    margin-right:15%;
+    color: white;
+}
+/*courses*/
+#courses{
+    color:black;
+    margin-left:15%;
+    margin-right:15%;
+}
+#courses .d-flex{
+    font-size: 20px;
+    color:black;
+}
+#courses .d-flex img{
+    width: 160px;
+}
+#courses .d-flex p{
+    color:black;
+}
+#courses .card{
+    background-color: white;
+}
+#courses .card:hover{
+    background-color:gainsboro;
+    box-shadow: 5px 5px 5px #888888;
+}
+#courses .card:hover p{
+    color:black;
+}
+/*strengths*/
+#strength{
+    color: whitesmoke;
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("img1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: transparent;
+}
+.strength-div{
+    margin-left:15%;
+    margin-right:15%;
+    color: white;
+}
+#strength .d-flex{
+    color: white;
+    font-weight: bold;
+}
+#strength hr{
+    border-top: 3px solid whitesmoke;
+}
+#strength .icon-and-descreption{
+    width: 25%;
+}
+#strength i{
+    font-size: 150%;
+    color: black;
+}
+span{
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+#strength span:hover{
+    background-color:gray;
+}
+#strength span:hover i{
+    color:whitesmoke;
+}
+/*hobbies*/
+#intrest{
+    color:black;
+    margin-left:15%;
+    margin-right:15%;
+}
+#intrest p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#intrest i{
+    font-size: 50px;
+}
+/*languages*/
+#languages{
+    color:black;
+    margin-left:15%;
+    margin-right:15%;
+}
+#languages p{
+    font-size: 20px;
+}
+/*contact*/
+#contact{
+    color:black;
+    margin-left:15%;
+    margin-right:15%;
+}
+#contact .d-flex a{
+    text-decoration: none;
+    color:black;
+}
+hr{
+    width: 10%;
+    margin-left:45% !important;
+}
+.footer i{
+    font-size: 50px;
+    padding:5px;
+    color:black; 
+}
+.footer {
+    margin: 0 !important;
+}
+.footer a{
+    text-decoration: none;
+    color: crimson;
+}
